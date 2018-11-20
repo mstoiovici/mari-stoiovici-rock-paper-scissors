@@ -21,11 +21,18 @@
   width: 400px;
   height: 400px;
 }
+#page{
+  width:80%;
+}
 body{
   font-size:2rem;
   font-weight: bold;
 }
 .bold{
-  
+
   font-size:3rem;
+}
+img{
+  max-width:100%;
+
 }
