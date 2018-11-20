@@ -6,15 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rock Paper Scissors</title>
   <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/custom.css" />
 </head>
 
 <body>
-  <h1>Rock Paper Scissors</h1>
-  <button id="rock" value="rock">Rock</button>
-  <button id="paper" value="paper">Paper</button>
-  <button id="scissors" value="scissors">Scissors</button>
-  <!--/buttons, step1-->
+<header>
+  <h1 class="display-1 text-center">Rock Paper Scissors</h1>
+</header>
+
+  <div class="container">
+  <div class="row">
+    <div class=" col-lg-4">
+
+      <button id="rock" class="button" value="rock"></button>
+    </div>
+    <div class="col-lg-4">
+  <button id="paper" class="button"  value="paper"></button>
+    </div>
+    <div class="col-md-4">
+        <button id="scissors" class="button" value="scissors"></button>
+    </div>
+  </div>
+</div>
+
+<!--/buttons container-->
+
+
+
+
 
 
   <section>
@@ -41,7 +61,9 @@
   </section>
   <!--/section-->
 
+<footer>
 
+</footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/js.js"></script>
