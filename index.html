@@ -11,59 +11,78 @@
 </head>
 
 <body>
-<header>
-  <h1 class="display-1 text-center">Rock Paper Scissors</h1>
-</header>
-
-  <div class="container">
-  <div class="row">
-    <div class=" col-lg-4">
-
-      <button id="rock" class="button" value="rock"></button>
-    </div>
-    <div class="col-lg-4">
-  <button id="paper" class="button"  value="paper"></button>
-    </div>
-    <div class="col-md-4">
-        <button id="scissors" class="button" value="scissors"></button>
-    </div>
-  </div>
-</div>
-
-<!--/buttons container-->
-
-
-
-
+  <header>
+    <div class="container">
+      <h1 class="display-1 text-center">Rock Paper Scissors</h1>
+      </div>
+    </header>
 
 
   <section>
+    <div class="container">
+      <div class="row">
+        <div class=" col-md-4 ">
 
-    <div>
-      <h2>Current move</h2>
-      <p>You: <span id="play_you"></span></p>
-      <p>Machine: <span id="play_machine"></span></p>
+          <button id="rock" class="button" value="rock"></button>
+        </div>
+        <div class="col-md-4">
+          <button id="paper" class="button" value="paper"></button>
+        </div>
+        <div class="col-md-4">
+          <button id="scissors" class="button" value="scissors"></button>
+        </div>
+      </div>
     </div>
-    <!--/current move-->
 
-    <div>
-      <h2>Result</h2>
+    <!--/buttons container-->
 
-      <h3>Verdict: <span id="verdict"></span></h3>
 
-      <p>Won:<span id="game_won"></span></p>
-      <p>Lost:<span id="game_lost"></span></p>
-      <p>Draw:<span id="game_draw"></span></p>
-      <p>Played:<span id="game_played"></span></p>
-    </div>
-    <!--/results-->
+
+
+
+
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class=" col-md-4 text-center">
+          <p>You: <span id="play_you"></span></p>
+        </div><!--/your move-->
+
+        <div class="col-md-4 text-center">
+          <p class="bold">Verdict: <span id="verdict"></span></p>
+        </div><!--/verdict-->
+
+            <div class="col-md-4 text-center">
+              <p>Machine: <span id="play_machine"></span></p>
+            </div><!--/computer move-->
+
+          </div>
+          <!--/row-->
+</div>
+<!--/container-->
+
+          <div>
+            <h2>Result</h2>
+
+
+
+            <p>Won:<span id="game_won"></span></p>
+            <p>Lost:<span id="game_lost"></span></p>
+            <p>Draw:<span id="game_draw"></span></p>
+            <p>Played:<span id="game_played"></span></p>
+          </div>
+          <!--/results-->
 
   </section>
   <!--/section-->
 
-<footer>
-
-</footer>
+  <footer>
+    <div class="container">
+      
+    </div>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/js.js"></script>
