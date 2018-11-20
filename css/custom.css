@@ -21,18 +21,17 @@
   width: 400px;
   height: 400px;
 }
-#page{
-  width:80%;
-}
-body{
-  font-size:2rem;
+
+body {
+  font-size: 2rem;
   font-weight: bold;
+  background-color: grey;
 }
-.bold{
 
-  font-size:3rem;
+.bold {
+  font-size: 3rem;
 }
-img{
-  max-width:100%;
 
+.carousel {
+  width: 60%;
 }
