@@ -14,8 +14,8 @@
   <header>
     <div class="container">
       <h1 class="display-1 text-center">Rock Paper Scissors</h1>
-      </div>
-    </header>
+    </div>
+  </header>
 
 
   <section>
@@ -48,44 +48,84 @@
 
         <div class=" col-md-4 text-center">
           <p>You: <span id="play_you"></span></p>
-        </div><!--/your move-->
+        </div>
+        <!--/your move-->
 
         <div class="col-md-4 text-center">
           <p class="bold">Verdict: <span id="verdict"></span></p>
-        </div><!--/verdict-->
+        </div>
+        <!--/verdict-->
 
-            <div class="col-md-4 text-center">
-              <p>Machine: <span id="play_machine"></span></p>
-            </div><!--/computer move-->
+        <div class="col-md-4 text-center">
+          <p>Machine: <span id="play_machine"></span></p>
+        </div>
+        <!--/computer move-->
 
-          </div>
-          <!--/row-->
-</div>
-<!--/container-->
+      </div>
+      <!--/row-->
+    </div>
+    <!--/container-->
 
-          <div>
-            <h2>Result</h2>
+    <div>
+      <h2>Result</h2>
 
 
 
-            <p>Won:<span id="game_won"></span></p>
-            <p>Lost:<span id="game_lost"></span></p>
-            <p>Draw:<span id="game_draw"></span></p>
-            <p>Played:<span id="game_played"></span></p>
-          </div>
-          <!--/results-->
+      <p>Won:<span id="game_won"></span></p>
+      <p>Lost:<span id="game_lost"></span></p>
+      <p>Draw:<span id="game_draw"></span></p>
+      <p>Played:<span id="game_played"></span></p>
+    </div>
+    <!--/results-->
 
   </section>
   <!--/section-->
 
   <footer>
-    <div class="container">
-      
+    <div id="carouselExampleIndicators" class="container carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators justify-content-center">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img class=" img-thumbnail d-block w-100  " src="images/rock1.jpg" alt="rock icon" />
+        </div>
+
+
+        <div class="carousel-item">
+          <img class=" img-thumbnail d-block w-100  " src="images/paper1.jpg" alt="paper icon" />
+        </div>
+
+
+        <div class="carousel-item">
+          <img class="   img-thumbnail d-block w-100 " src="images/scissors1.jpg" alt="scissors icon" />
+        </div>
+
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class=" carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="  sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class=" carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
+
+
+
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/js.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>
