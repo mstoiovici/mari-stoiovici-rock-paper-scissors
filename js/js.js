@@ -38,11 +38,11 @@ function compare(you, machine) {
 
   /*console.log("move: " + verdict);*/
 
-$("#verdict").text(verdict);
-  return verdict;
 
 
-  /*switch (verdict) {
+
+
+  switch (verdict) {
     case 'win':
       won++;
       console.log("move: " + won);
@@ -60,12 +60,20 @@ $("#verdict").text(verdict);
       console.log("move: " + draw);
       $("#game_draw").text(draw);
       break;
-  }*/
-  if(verdict=="win"){
+  }
+  /*if(verdict=="win"){
     won++;
     $("#game_won").text(won);
   }
-
+  if(verdict=="lose"){
+    lost++;
+    $("#game_lost").text(lost);
+  }
+  if(verdict=="draw"){
+    draw++;
+    $("#game_draw").text(draw);
+  }*/
+$("#verdict").text(verdict);
   played++;
   $("#game_played").text(played);
 }
