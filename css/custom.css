@@ -1,17 +1,18 @@
-#rock {
+/*#rock {
   background: url("../images/rock1.jpg");
   cursor: pointer;
   border: 1px solid black;
   width: 400px;
   height: 400px;
-}
 
-#paper {
+}*/
+
+/*#paper {
   background: url("../images/paper1.jpg") no-repeat;
   cursor: pointer;
   border: 1px solid black;
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
 }
 
 #scissors {
@@ -20,7 +21,7 @@
   border: 1px solid black;
   width: 400px;
   height: 400px;
-}
+}*/
 
 body {
   font-size: 2rem;
