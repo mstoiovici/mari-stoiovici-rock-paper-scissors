@@ -3,17 +3,44 @@ var played = 0;
 var won = 0;
 var lost = 0;
 var draw = 0;
+var computer="";
+var you="";
 
-
-
-$('button').click(function(event) {
-
+$('#rock').click(function(event) {
+//$("#paper").hide();
   var play_you = this.getAttribute("value");
-  /*console.log(play_you);*/
-  $("#play_you").text(play_you);
+  console.log(play_you);
+  //$("#play_you").text(play_you);
+  var play_machine = computer_move();
+  console.log(play_machine);
+  compare(play_you, play_machine);
+  displayYourChoice(play_you);
+  displayMachineChoice(play_machine);
+
+});
+
+$('#paper').click(function(event) {
+  //$("#paper").hide();
+  var play_you = this.getAttribute("value");
+  console.log(play_you);
+  //$("#play_you").text(play_you);
   var play_machine = computer_move();
   compare(play_you, play_machine);
+  displayYourChoice(play_you);
+  displayMachineChoice(play_machine);
 });
+
+$('#scissors').click(function(event) {
+
+  var play_you = this.getAttribute("value");
+  console.log(play_you);
+  //$("#play_you").text(play_you);
+  var play_machine = computer_move();
+  compare(play_you, play_machine);
+  displayYourChoice(play_you);
+  displayMachineChoice(play_machine);
+});
+
 /*......../listen to the clicks.................................*/
 
 function computer_move() {
@@ -21,8 +48,9 @@ function computer_move() {
   /*console.log("move: " + play_machine);*/
   play_machine = choices[play_machine];
   /*console.log("move: " + play_machine);*/
-  $("#play_machine").text(play_machine);
+  //$("#play_machine").text(play_machine);
   return play_machine;
+//displayMachineChoice();
 }
 /*......../computer moves.........................................*/
 
@@ -59,3 +87,29 @@ $("#verdict").text(verdict);
   /*......../ returns the verdict andupdates the nr of played games ...........................................*/
 }
   /*......../compare moves and updates variables...........................................*/
+function displayMachineChoice(play_machine){
+
+  computer=document.images.machineMove;
+  if (play_machine=="rock"){
+    computer.src="images/rock1.jpg";
+  }
+  if (play_machine=="paper"){
+    computer.src="images/paper1.jpg";
+  }
+  if (play_machine=="scissors"){
+    computer.src="images/scissors1.jpg";
+  }
+}
+
+function displayYourChoice(play_you){
+  your=document.images.yourMove;
+  if (play_you=="rock"){
+  your.src="images/rock1.jpg";
+  }
+  if (play_you=="paper"){
+    your.src="images/paper1.jpg";
+  }
+  if (play_you=="scissors"){
+  your.src="images/scissors1.jpg";
+}
+}
