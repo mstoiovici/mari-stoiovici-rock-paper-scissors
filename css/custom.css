@@ -24,9 +24,11 @@
 }*/
 
 body {
+  background: #90c9bf;
+  color: #fff;
+	font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
   font-weight: bold;
-  background-color: grey;
 }
 
 .bold {
@@ -36,6 +38,14 @@ body {
 .carousel {
   width: 40%;
 }
-header{
-  background-color:white;
+
+#row-buttons .border{
+  border: 2px solid black!important;
 }
+#moves .border{
+  border: 2px solid green!important;
+}
+#score .border{
+  border: 2px solid blue!important;
+}
+/*..................culoare bordura buttons, de scos la final */

@@ -23,15 +23,15 @@
 
   <section>
     <div class="container">
-      <div class="row">
+      <div id="row-buttons"class="row ">
         <div class=" col-sm-4 border">
-          <button id="rock" type="button" class="btn btn-outline-secondary" value="rock"><img class= "img-fluid" src="images/rock1.jpg" alt="rock icon button" /></button>
+          <button id="rock" type="button" class="btn" value="rock"><img class= "img-fluid" src="images/rock1.jpg" alt="rock icon button" /></button>
         </div>
         <div class="col-sm-4 border">
-          <button id="paper" type="button" class="btn btn-outline-secondary" value="paper"><img class= "img-fluid" src="images/paper1.jpg" alt="paper icon button" /></button>
+          <button id="paper" type="button" class="btn" value="paper"><img class= "img-fluid" src="images/paper1.jpg" alt="paper icon button" /></button>
         </div>
         <div class="col-md-4 border">
-          <button id="scissors" type="button" class="btn btn-outline-secondary" value="scissors"><img class= "img-fluid" src="images/scissors1.jpg" alt="scissors icon button"/></button>
+          <button id="scissors" type="button" class="btn" value="scissors"><img class= "img-fluid" src="images/scissors1.jpg" alt="scissors icon button"/></button>
         </div>
       </div>
     </div>
@@ -39,49 +39,49 @@
 
     <div class="container">
 
-      <div class="row">
+      <div id ="moves"class="row ">
 
-        <div class=" col-md-4 text-center">
+        <div class=" col-md-4  border text-center">
           <p>You: <span id="play_you"></span></p>
         </div>
         <!--/your move-->
 
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 border text-center">
           <p class="bold">Verdict: <span id="verdict"></span></p>
         </div>
         <!--/verdict-->
 
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 border text-center">
           <p>Machine: <span id="play_machine"></span></p>
         </div>
         <!--/computer move-->
 
       </div>
-      <!--/row-->
-      <div class="row">
+      <!--/container moves-->
+      <div id="score" class="row">
 
-        <div class=" col-md-3 text-center">
+        <div class=" col-md-3 border text-center">
           <p>Won:<span id="game_won"></span></p>
         </div>
         <!--/game won-->
 
-        <div class="col-md-3 text-center">
+        <div class="col-md-3 border text-center">
           <p>Lost:<span id="game_lost"></span></p>
         </div>
         <!--/games lost-->
 
-        <div class="col-md-3 text-center">
+        <div class="col-md-3 border text-center">
           <p>Draw:<span id="game_draw"></span></p>
         </div>
         <!--/game draw-->
 
-        <div class="col-md-3 text-center">
+        <div class="col-md-3 border text-center">
           <p>Played:<span id="game_played"></span></p>
         </div>
         <!--/games played-->
 
       </div>
-      <!--/row results-->
+      <!--/row score-->
 
     </div>
     <!--/container moves and score-->
