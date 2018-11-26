@@ -7,10 +7,8 @@ var computer="";
 var you="";
 
 $('#rock').click(function(event) {
-//$("#paper").hide();
   var play_you = this.getAttribute("value");
   console.log(play_you);
-  //$("#play_you").text(play_you);
   var play_machine = computer_move();
   console.log(play_machine);
   compare(play_you, play_machine);
@@ -20,10 +18,8 @@ $('#rock').click(function(event) {
 });
 
 $('#paper').click(function(event) {
-  //$("#paper").hide();
   var play_you = this.getAttribute("value");
   console.log(play_you);
-  //$("#play_you").text(play_you);
   var play_machine = computer_move();
   compare(play_you, play_machine);
   displayYourChoice(play_you);
@@ -31,10 +27,8 @@ $('#paper').click(function(event) {
 });
 
 $('#scissors').click(function(event) {
-
   var play_you = this.getAttribute("value");
   console.log(play_you);
-  //$("#play_you").text(play_you);
   var play_machine = computer_move();
   compare(play_you, play_machine);
   displayYourChoice(play_you);
@@ -48,9 +42,9 @@ function computer_move() {
   /*console.log("move: " + play_machine);*/
   play_machine = choices[play_machine];
   /*console.log("move: " + play_machine);*/
-  //$("#play_machine").text(play_machine);
+
   return play_machine;
-//displayMachineChoice();
+
 }
 /*......../computer moves.........................................*/
 
@@ -100,6 +94,7 @@ function displayMachineChoice(play_machine){
     computer.src="images/scissors1.jpg";
   }
 }
+/*....targets machineMove and changes the image displayed...........................................*/
 
 function displayYourChoice(play_you){
   your=document.images.yourMove;
@@ -113,3 +108,4 @@ function displayYourChoice(play_you){
   your.src="images/scissors1.jpg";
 }
 }
+/*....targets yourMove and changes the image displayed...........................................*/

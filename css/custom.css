@@ -33,9 +33,17 @@ body {
 }
 
 .bold {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  color:#009999;
+}
+.title{
+  font-size:3rem;
+  color:#009999;
 }
 
+header{
+  background-color: #009999;
+}
 .carousel {
   width: 40%;
 }
