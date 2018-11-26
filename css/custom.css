@@ -40,6 +40,9 @@ img{
   border-radius: 50%;
 }
 @media screen and ( max-width:578px) {
+body{
+  background-color: #ccc;
+}
 h1{
   font-size: 2rem;
   color:#003366;
@@ -50,6 +53,15 @@ h1{
 .bold {
   font-size: 1.5rem;
   color:#009999;
+}
+.score{
+  width: 20%;
+  float: left;
+  margin: 1%;
+
+}
+.score p{
+  font-size:1rem;
 }
   #one, #two,#five {
     width: 31.3%;
