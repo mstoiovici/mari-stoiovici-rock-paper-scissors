@@ -85,13 +85,13 @@ function displayMachineChoice(play_machine){
 
   computer=document.images.machineMove;
   if (play_machine=="rock"){
-    computer.src="images/rock1.jpg";
+    computer.src="images/rock-img.jpg";
   }
   if (play_machine=="paper"){
-    computer.src="images/paper1.jpg";
+    computer.src="images/paper-img.jpg";
   }
   if (play_machine=="scissors"){
-    computer.src="images/scissors1.jpg";
+    computer.src="images/scissors-img.jpg";
   }
 }
 /*....targets machineMove and changes the image displayed...........................................*/
@@ -99,13 +99,13 @@ function displayMachineChoice(play_machine){
 function displayYourChoice(play_you){
   your=document.images.yourMove;
   if (play_you=="rock"){
-  your.src="images/rock1.jpg";
+  your.src="images/rock-img.jpg";
   }
   if (play_you=="paper"){
-    your.src="images/paper1.jpg";
+    your.src="images/paper-img.jpg";
   }
   if (play_you=="scissors"){
-  your.src="images/scissors1.jpg";
+  your.src="images/scissors-img.jpg";
 }
 }
 /*....targets yourMove and changes the image displayed...........................................*/
