@@ -35,6 +35,7 @@ header{
   border-radius: 50%;
 }
 @media screen and ( max-width:578px) {
+  
   #one, #two,#four,#five {
     width: 31.3%;
     /*border: 1px solid black;
@@ -44,8 +45,6 @@ header{
     margin: 1%;
   }
 
-
-
   #three,#six {
     width: 31.3%;
     /*border: 1px solid black;
@@ -54,5 +53,8 @@ header{
     float: left;
     margin: 1%;
     margin-right: 0%;
+  }
+  .carousel {
+    width: 70%;
   }
 }
