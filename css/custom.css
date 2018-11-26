@@ -8,15 +8,15 @@ body {
   font-weight: bold;
 }
 h1{
-  font-size: 4rem;
+  font-size: 3.5rem;
   color:#009999;
 }
 .bold {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color:#009999;
 }
 .title{
-  font-size:3rem;
+  font-size:2.5rem;
   color:#009999;
 }
 #moves{
@@ -69,7 +69,7 @@ h1{
       float: left;
       margin: 1%;
     }
-  
+
   .carousel {
     width: 70%;
   }
