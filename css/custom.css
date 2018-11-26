@@ -29,17 +29,7 @@ header{
   width: 40%;
 }
 
-/*#row-buttons .border{
-  border: 2px solid black!important;
 }
-#moves .border{
-  border: 2px solid green!important;
-}
-#score .border{
-  border: 2px solid blue!important;
-}
-/*..................culoare bordura buttons, de scos la final */
-
 #moves img{
   width:50%;
   border-radius: 50%;
